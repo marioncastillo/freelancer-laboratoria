@@ -112,3 +112,33 @@ button{
     cursor: pointer;
 
 }
+
+h1{
+	font-size: 40px;
+
+}
+
+.contact{
+	position: left;
+
+}
+
+
+.send{
+	background: #00B19A;
+	border-radius: 8px;
+	width: 80px;
+	font-size: 1.5em;
+	color: white;
+	margin-left: 1px;	
+	height: 40px;
+    cursor: pointer;
+
+}
+
+.formu{
+	width: 50%;
+}
+#mensaje{
+	height: 100px;
+}
