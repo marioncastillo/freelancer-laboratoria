@@ -2,62 +2,69 @@
  * Estilos de tu proyecto
  */
  *{
- 	margin:0;
- 	font-family: 'Noto Serif', serif;
+ 	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+ 	box-sizing: border-box;
+ }
+
+ body{
+ 	margin: 0 auto;x|
+ 	line-height: 1.71429;
+ 	background-color: #fff;
+ 	text-align: center;
  }
  nav{
  	background-color: #01415E;
-	padding: 0px;
-	width: 100%;
-	position: fixed;
-	z-index: 30;
-	margin-right: 100px;
-
-
+ 	padding: 0px;
+ 	width: 100%;
+ 	position: fixed;
+ 	z-index: 30;
+ 	margin-right: 100px;
  }
  ul{
-	list-style: none;
-	margin:0;
-	overflow: hidden;
-	background-color: #01415E;
-	float: right;
-	margin-right:100px;
-}
+ 	list-style: none;
+ 	margin:0;
+ 	overflow: hidden;
+ 	background-color: #01415E;
+ 	float: right;
+ 	margin-right:100px;
+ }
 
-ul li{
-	display: inline-block;
-}
-ul li a{
-	display: inline-block;
-	color: white;
+ ul li{
+ 	display: inline-block;
+ }
+ ul li a{
+ 	display: inline-block;
+ 	color: white;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	margin-left: 20px;
+ 	padding: 10px;
+ }
+
+ li a:hover, .dropdown:hover, .dropbtn:hover{
+ 	background: #00B19A;
+
+ }
+
+ .star{
+ 	float: left;
+ 	color: white;
+ 	font-size: 20px;
+
+ }
+ .portada{
+ 	background: #00B19A;
+ 	color: white;
+ 	padding: 70px;
+ 	text-align:center;
+ 	padding-top: 150px;
+ }
+
+.container .row .col-12{
 	text-align: center;
-	text-decoration: none;
-	margin-left: 20px;
-	padding: 10px;
 }
 
-li a:hover, .dropdown:hover, .dropbtn:hover{
-	background: #00B19A;
-
-}
-
-.star{
-	float: left;
-	color: white;
-	font-size: 30px;
-
-}
-.portada{
-	background: #00B19A;
-	color: white;
-  padding: 70px;
-  text-align:center;
-  padding-top: 100px;
-}
-h1{
-	font-size: 75px;
-
-}
-h4{
-	font-size: 30px;
+.port{
+	width: 100%;
 }
