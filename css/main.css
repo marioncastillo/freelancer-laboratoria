@@ -138,7 +138,24 @@ h1{
 
 .formu{
 	width: 50%;
+	border-left: hidden;
+	border-top: hidden;
+	border-right: hidden;
+	font-size: 1.1em;
 }
 #mensaje{
 	height: 100px;
+
+
+}
+
+footer{
+	background: #01415E;
+}
+
+.copy{
+	background: grey;
+	padding: 10px;
+
+
 }
